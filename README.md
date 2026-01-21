@@ -11,12 +11,12 @@ This project implements a deep learning model for pneumonia detection from chest
 
 ## Features
 
-- ✅ **Lightweight Model**: MobileNetV2-based architecture (efficient for edge devices)
-- ✅ **INT8 Quantization**: Reduced model size and faster inference
-- ✅ **TensorFlow Lite Support**: Easy deployment on mobile, edge, and FPGA devices
-- ✅ **Binary Classification**: Normal vs. Pneumonia detection
-- ✅ **Preprocessing Pipeline**: Automated image normalization and augmentation
-- ✅ **Easy Inference**: Simple prediction script for testing
+- **Lightweight Model**: MobileNetV2-based architecture (efficient for edge devices)
+- **INT8 Quantization**: Reduced model size and faster inference
+- **TensorFlow Lite Support**: Easy deployment on mobile, edge, and FPGA devices
+- **Binary Classification**: Normal vs. Pneumonia detection
+- **Preprocessing Pipeline**: Automated image normalization and augmentation
+- **Easy Inference**: Simple prediction script for testing
 
 ## Project Structure
 
@@ -167,9 +167,13 @@ Images are automatically:
 ## INT8 Quantization Benefits
 
 1.**60-75% smaller model size**
+
 2.**2-3x faster inference** on CPU
+
 3.**Minimal accuracy loss** (~1-2%)
+
 4.**FPGA/Edge device compatible**
+
 5.**Lower memory footprint**
 
 ## FPGA Deployment
