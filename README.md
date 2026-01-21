@@ -22,25 +22,25 @@ This project implements a deep learning model for pneumonia detection from chest
 
 ```
 PneumoniaDtection_FPGA/
-├── main_fpga.py                      # Model training script
-├── convert_to_tflite.py              # Convert Keras model to TFLite INT8
-├── predict_fpga.py                   # Inference script
-├── requirements.txt                  # Python dependencies
-├── pneumonia_mobilenetv2_fpga.h5     # Trained Keras model
-├── pneumonia_mobilenetv2_int8.tflite # Quantized TFLite model
+├── main_fpga.py                     
+├── convert_to_tflite.py             
+├── predict_fpga.py                   
+├── requirements.txt                  
+├── pneumonia_mobilenetv2_fpga.h5     
+├── pneumonia_mobilenetv2_int8.tflite 
 ├── data/
 │   ├── Train/
-│   │   ├── NORMAL/                   # Normal chest X-rays
-│   │   └── PNEUMONIA/                # Pneumonia chest X-rays
+│   │   ├── NORMAL/                   
+│   │   └── PNEUMONIA/                
 │   └── Test/
-│       ├── NORMAL/                   # Test normal images
-│       └── PNEUMONIA/                # Test pneumonia images
-└── README.md                         # Project documentation
+│       ├── NORMAL/                   
+│       └── PNEUMONIA/                
+└── README.md                        
 ```
 
 ## Requirements
 
-- Python 3.8+
+- Python 3.8+ [ I'm using 3.11.0 as it' compatible with all of the python libraries]
 - TensorFlow 2.20.0
 - NumPy 1.26.4
 - Pillow 12.1.0
@@ -232,5 +232,4 @@ This project is open source. Feel free to use, modify, and distribute.
 - FPGA optimization insights from edge computing research
 
 ---
-
 
