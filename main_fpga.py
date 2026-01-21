@@ -21,14 +21,14 @@ test_datagen = ImageDataGenerator(
 
 # ---- 3. LOAD DATA ----
 train_generator = train_datagen.flow_from_directory(
-    'data/train',
+    'data/Train',
     target_size=(224, 224),
     batch_size=32,
     class_mode='binary'
 )
 
 validation_generator = test_datagen.flow_from_directory(
-    'data/test',
+    'data/Test',
     target_size=(224, 224),
     batch_size=32,
     class_mode='binary'
