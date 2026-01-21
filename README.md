@@ -166,11 +166,11 @@ Images are automatically:
 
 ## INT8 Quantization Benefits
 
-✅ **60-75% smaller model size**
-✅ **2-3x faster inference** on CPU
-✅ **Minimal accuracy loss** (~1-2%)
-✅ **FPGA/Edge device compatible**
-✅ **Lower memory footprint**
+1.**60-75% smaller model size**
+2.**2-3x faster inference** on CPU
+3.**Minimal accuracy loss** (~1-2%)
+4.**FPGA/Edge device compatible**
+5.**Lower memory footprint**
 
 ## FPGA Deployment
 
