@@ -49,7 +49,7 @@ PneumoniaDtection_FPGA/
 
 1. **Clone the repository**:
    ```bash
-   git clone https://github.com/ftkhirabditanaya/Pneumonia-Detection-FPGA.git
+   git clone https://github.com/ftkhirabditanaya/Pneumonia-Detection-FPGA
    cd Pneumonia-Detection-FPGA
    ```
 
